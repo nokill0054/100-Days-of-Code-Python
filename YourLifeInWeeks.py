@@ -8,11 +8,12 @@ weeks=int(52)
 months=int(12)
 
 age =int(input("What is your current age? \n"))
-      
-days = int(age)*int(days)
+age_remaining = int(90) - int(age)      
 
-weeks = int(age)*int(weeks)
+days = int(age_remaining)*int(days)
 
-months = int(age)*int(months)
+weeks = int(age_remaining)*int(weeks)
 
-print(f"You have {days} days,{weeks} weeks and {months}months left")
+months = int(age_remaining)*int(months)
+
+print(f"You have {days} days,{weeks} weeks and {months} months left")
