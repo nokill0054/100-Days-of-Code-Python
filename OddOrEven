@@ -1,0 +1,10 @@
+#ODD OR EVEN PROJECT
+
+Number = input("Please enter a number!")
+
+result = int(Number) % 2
+
+if result == 0:    
+    print("This is Even")
+else:
+    print("This is Odd")
